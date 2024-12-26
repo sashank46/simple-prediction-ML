@@ -14,26 +14,26 @@ This project implements a machine learning model to classify iris flowers based 
 ## Installation
 To get started,install the required packages.To install all the packages copy paste the given text below in the Terminal:
 
-<!-- [ pip install pandas scikit-learn matplotlib seaborn ] -->
+ pip install pandas scikit-learn matplotlib seaborn 
 
 ## Usage
 Run the following command to execute the model:
-     [<!-- python iris_model.py -->]
+      python iris_model.py 
 The script will output the accuracy of the model, display a confusion matrix, and predict the species of a sample iris flower.
 
 ## Data
 The dataset used for this project is the Iris dataset, which contains 150 samples of iris flowers with four features:
 
-<!-- [Sepal Length
+Sepal Length
 Sepal Width
 Petal Length
-Petal Width] -->
+Petal Width
 
 The target variable is the species of the iris flower, which can be one of the following:
 
-<!-- [Setosa
+Setosa
 Versicolor
-Virginica] -->
+Virginica
 
 ## Model
 
